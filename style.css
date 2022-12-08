@@ -43,6 +43,7 @@ button {
     outline: none;
     border-bottom: 4px solid var(--green);
     margin-right: 15px;
+    cursor: pointer;
 }
 
 .profile {
