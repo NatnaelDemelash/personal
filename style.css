@@ -15,6 +15,10 @@
   font-weight: lighter;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: rgb(27, 27, 27);
   color: #fff;
@@ -179,6 +183,12 @@ textarea {
   border-bottom: 1px solid rgb(231, 231, 231);
   color: #fff;
   font-size: 17px;
+}
+
+.contact input:focus,
+textarea:focus {
+  border-bottom: 1px solid var(--green);
+  outline: none;
 }
 
 .contact ::placeholder {
