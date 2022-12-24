@@ -15,7 +15,7 @@
         <div class="wrapper">
             <nav class="header_nav">
                 <a href="/" class="header_logo">
-                    Natnael Demelash 
+                    Natnael Demelash
                 </a>
                 <a href="https://github.com/NatnaelDemelash" target="_blank" class="header__social"><img src="./images/icon-github.svg" alt=""></a>
                 <a href="https://www.linkedin.com/in/natnael-demelash-20835b1bb/" target="_blank" class="header__social"><img src="./images/icon-linkedin.svg" alt=""></a>
@@ -83,7 +83,7 @@
                     </div>
                 </div>
                 <div class="portfolio-proj">
-                    <img src="./images/proj-2.jpg" alt="">
+                    <img src="./images/project-2.png" alt="">
                     <h2>Single Price Grid Component</h2>
                     <div class="lang">
                         <p>HTML</p>
@@ -100,21 +100,18 @@
                     </div>
                 </div>
                 <div class="portfolio-proj">
-                    <img src="./images/proj-4.jpg" alt="">
-                    <h2>Todo App</h2>
+                    <img src="./images/proj-4.png" alt="">
+                    <h2>Note App</h2>
                     <div class="lang">
-                        <p>Html</p>
-                        <p>CSS</p>
-                        <p>JS</p>
+                        <p>Vue.js</p>
                     </div>
                 </div>
                 <div class="portfolio-proj">
                     <img src="./images/proj-5.jpg" alt="">
-                    <h2>Todo App</h2>
+                    <h2>Huddle landing page</h2>
                     <div class="lang">
                         <p>Html</p>
                         <p>CSS</p>
-                        <p>JS</p>
                     </div>
                 </div>
             </div>
@@ -125,15 +122,17 @@
                 <div class="left">
                     <h1>Contact</h1>
                     <p>
-                        I would love to hear about your project and how could I help. please fill in the form, and I'll get back toyou ASAP.
+                        I would love to hear about your project and how could I help. please fill in the form, and I'll get back to you ASAP.
                     </p>
                 </div>
                 <div class="right">
-                    <form action="">
-                        <input type="text" placeholder="Name" required>
+                    <form action="https://formsubmit.co/natidemelash074@gmail.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="text" id="name" placeholder="Name" required>
+                        <input type="hidden" name="_subject" value="New Contact Email Enquiry!">
                         <input type="email" name="email" id="email" placeholder="Email" required>
-                        <textarea name="message" id="" cols="30" rows="5" placeholder="Message" @required></textarea>
-                        <a href="#" type="submit">Send Message</a>
+                        <textarea name="message" id="" cols="30" rows="5" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -158,6 +157,7 @@
                 </div>
             </div>
         </footer>
+        </script>
 </body>
 
 </html>
